@@ -1,10 +1,8 @@
 🏥 Hospital Appointment Booking System
-
 A PHP and MySQL based hospital appointment booking web application that allows patients to find doctors, check available appointment slots, and manage appointments. The system provides separate dashboards for patients, doctors, and administrators.
 The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS and JavaScript.
 
 📌 Features
-
 👤 Authentication & User Management
 ● Patient registration and login
 ● Session-based authentication
@@ -12,13 +10,14 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Profile management
 ● Password change
 ● User activation/deactivation
-🧑‍⚕️ Doctor Management
 
+🧑‍⚕️ Doctor Management
 ● Add, edit and deactivate doctors
 ● Assign specializations
 ● Doctor biography and consultation fee
 ● Doctor photo upload
 ● Configure available working days
+
 📅 Appointment Management
 ● Browse doctors by specialization
 ● View doctor profiles
@@ -30,6 +29,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Update appointment status
 ● Reschedule appointments
 ● Statuses: Pending, Confirmed, Completed, Cancelled and No-Show
+
 👨‍⚕️ Doctor Dashboard
 ● Today’s appointments
 ● Upcoming appointments
@@ -37,6 +37,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Appointment status management
 ● Appointment rescheduling
 ● Income summary
+
 🛠️ Admin Dashboard
 ● Total doctors, patients and appointments
 ● Total and today’s revenue
@@ -44,6 +45,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Manage doctors, users and specializations
 ● Manage all appointments
 ● Revenue reports
+
 🔌 API
 The project includes API functionality for doctor listing/filtering, doctor statistics, available slots, appointment cancellation, appointment status updates and user activation.
 
@@ -113,6 +115,7 @@ doctors
 Stores doctor-specific information including User ID, Specialization, Biography, Consultation Fee, Photo and Available Days.
 appointments
 Stores patient-doctor appointment information including date, time, fee, reason, status and cancellation reason.
+
 🔗 Relationships
 ```text
 Users
@@ -222,17 +225,36 @@ PUT   /api/appointments/{id}
 🏠 Landing Page
 <img width="1893" height="931" alt="image" src="https://github.com/user-attachments/assets/dd7b6e7c-aa0e-4707-8900-c4e254735910" />
 
+<img width="1890" height="967" alt="image" src="https://github.com/user-attachments/assets/dc0fdfb0-4c1d-4a47-a694-e8f7550ce7fc" />
+
 🔐 Login Page
-Login Page
+<img width="1891" height="960" alt="image" src="https://github.com/user-attachments/assets/14a4f5a4-5527-4594-b237-8bb0efefa6b2" />
+
 🧑‍🤝‍🧑 Patient Dashboard
-Patient Dashboard
+<img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/bea8c38c-d4a9-4310-91f1-cb989e062151" />
+
 📅 Appointment Booking
-Appointment Booking
+<img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/96ca9b88-50fa-46ea-be2f-39ac8cfae4a9" />
+
 👨‍⚕️ Doctor Dashboard
-Doctor Dashboard
+<img width="1877" height="943" alt="image" src="https://github.com/user-attachments/assets/e44be040-0950-4556-9c60-0228276e16ea" />
+
+<img width="1877" height="953" alt="image" src="https://github.com/user-attachments/assets/0b64c497-1e22-4dad-bca8-45ccfe41de17" />
+
+
 🛠️ Admin Dashboard
-Admin Dashboard
-> The supplied project archive did not contain UI screenshots, so the README uses ready-to-fill relative screenshot paths rather than inventing screenshots. Once the images are placed in `screenshots/`, GitHub will display them automatically.
+<img width="1905" height="893" alt="image" src="https://github.com/user-attachments/assets/160be30c-320a-4635-99d1-81d37bb455c6" />
+
+<img width="1878" height="930" alt="image" src="https://github.com/user-attachments/assets/3c14f82e-759e-46c6-9363-e9e658385d48" />
+
+<img width="1871" height="935" alt="image" src="https://github.com/user-attachments/assets/386a57a7-ecdb-41fc-b2ea-8ac9471191ef" />
+
+<img width="1880" height="887" alt="image" src="https://github.com/user-attachments/assets/7b8be9f9-f98c-436a-8fc6-4119e54543c9" />
+
+<img width="1882" height="958" alt="image" src="https://github.com/user-attachments/assets/936e7b22-1be7-4f0e-91eb-58bef79ff6bb" />
+
+<img width="1892" height="890" alt="image" src="https://github.com/user-attachments/assets/b658a5ab-629d-413b-a4f6-68527db0e663" />
+
 
 🔒 Security & Validation
 The project includes:
