@@ -6,7 +6,6 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 📌 Features
 
 👤 Authentication & User Management
-
 ● Patient registration and login
 
 ● Session-based authentication
