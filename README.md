@@ -6,6 +6,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 📌 Features
 
 👤 Authentication & User Management
+
 ● Patient registration and login
 ● Session-based authentication
 ● Role-based access: Patient, Doctor and Admin
@@ -13,14 +14,18 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Password change
 ● User activation/deactivation
 
+
 🧑‍⚕️ Doctor Management
+
 ● Add, edit and deactivate doctors
 ● Assign specializations
 ● Doctor biography and consultation fee
 ● Doctor photo upload
 ● Configure available working days
 
+
 📅 Appointment Management
+
 ● Browse doctors by specialization
 ● View doctor profiles
 ● Check available appointment slots
@@ -33,6 +38,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Statuses: Pending, Confirmed, Completed, Cancelled and No-Show
 
 👨‍⚕️ Doctor Dashboard
+
 ● Today’s appointments
 ● Upcoming appointments
 ● Weekly schedule
@@ -41,6 +47,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Income summary
 
 🛠️ Admin Dashboard
+
 ● Total doctors, patients and appointments
 ● Total and today’s revenue
 ● Doctor revenue statistics
@@ -49,6 +56,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Revenue reports
 
 🔌 API
+
 The project includes API functionality for doctor listing/filtering, doctor statistics, available slots, appointment cancellation, appointment status updates and user activation.
 
 🛠️ Tech Stack
@@ -107,6 +115,7 @@ hospital/
 ```
 
 🗄️ Database Structure
+
 The MySQL database contains four main tables:
 users
 Stores patient, doctor and admin accounts.
@@ -119,6 +128,7 @@ appointments
 Stores patient-doctor appointment information including date, time, fee, reason, status and cancellation reason.
 
 🔗 Relationships
+
 ```text
 Users
  │
@@ -130,6 +140,7 @@ Users
 ```
 
 ⚙️ Project Setup
+
 1. Install and Start XAMPP
 Start Apache and MySQL from the XAMPP Control Panel.
 2. Copy the Project
@@ -265,6 +276,7 @@ PUT   /api/appointments/{id}
 
 
 🔒 Security & Validation
+
 The project includes:
 ● Session-based authentication
 ● Role-based authorization
@@ -277,6 +289,7 @@ The project includes:
 ● Doctor photo upload size limitation
 
 🎯 Project Objective
+
 The main objective is to provide a centralized online platform for managing hospital doctor appointments.
 ```text
 Patient
@@ -294,6 +307,7 @@ Appointment Management
 The system simplifies appointment management for patients while giving doctors and administrators tools to manage schedules, appointments, users, doctors, specializations and revenue.
 
 🚀 Future Improvements
+
 ● Online payment integration
 ● Email/SMS appointment notifications
 ● Doctor ratings and reviews
@@ -306,5 +320,6 @@ The system simplifies appointment management for patients while giving doctors a
 ● Additional security features
 
 📄 License
+
 This project is developed for educational and academic purposes.
 
