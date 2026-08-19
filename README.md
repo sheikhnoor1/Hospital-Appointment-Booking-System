@@ -8,51 +8,80 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 👤 Authentication & User Management
 
 ● Patient registration and login
+
 ● Session-based authentication
+
 ● Role-based access: Patient, Doctor and Admin
+
 ● Profile management
+
 ● Password change
+
 ● User activation/deactivation
 
 
 🧑‍⚕️ Doctor Management
 
 ● Add, edit and deactivate doctors
+
 ● Assign specializations
+
 ● Doctor biography and consultation fee
+
 ● Doctor photo upload
+
 ● Configure available working days
+
 
 
 📅 Appointment Management
 
 ● Browse doctors by specialization
+
 ● View doctor profiles
+
 ● Check available appointment slots
+
 ● Book appointments
+
 ● Prevent double booking
+
 ● View appointment history
+
 ● Cancel appointments
+
 ● Update appointment status
+
 ● Reschedule appointments
+
 ● Statuses: Pending, Confirmed, Completed, Cancelled and No-Show
 
 👨‍⚕️ Doctor Dashboard
 
 ● Today’s appointments
+
 ● Upcoming appointments
+
 ● Weekly schedule
+
 ● Appointment status management
+
 ● Appointment rescheduling
+
 ● Income summary
 
 🛠️ Admin Dashboard
 
 ● Total doctors, patients and appointments
+
 ● Total and today’s revenue
+
 ● Doctor revenue statistics
+
 ● Manage doctors, users and specializations
+
 ● Manage all appointments
+
 ● Revenue reports
 
 🔌 API
