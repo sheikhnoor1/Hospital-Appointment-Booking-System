@@ -1,8 +1,10 @@
 🏥 Hospital Appointment Booking System
+
 A PHP and MySQL based hospital appointment booking web application that allows patients to find doctors, check available appointment slots, and manage appointments. The system provides separate dashboards for patients, doctors, and administrators.
 The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS and JavaScript.
 
 📌 Features
+
 👤 Authentication & User Management
 ● Patient registration and login
 ● Session-based authentication
@@ -223,26 +225,32 @@ PUT   /api/appointments/{id}
 ```
 
 🏠 Landing Page
+
 <img width="1893" height="931" alt="image" src="https://github.com/user-attachments/assets/dd7b6e7c-aa0e-4707-8900-c4e254735910" />
 
 <img width="1890" height="967" alt="image" src="https://github.com/user-attachments/assets/dc0fdfb0-4c1d-4a47-a694-e8f7550ce7fc" />
 
 🔐 Login Page
+
 <img width="1891" height="960" alt="image" src="https://github.com/user-attachments/assets/14a4f5a4-5527-4594-b237-8bb0efefa6b2" />
 
 🧑‍🤝‍🧑 Patient Dashboard
+
 <img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/bea8c38c-d4a9-4310-91f1-cb989e062151" />
 
 📅 Appointment Booking
+
 <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/96ca9b88-50fa-46ea-be2f-39ac8cfae4a9" />
 
 👨‍⚕️ Doctor Dashboard
+
 <img width="1877" height="943" alt="image" src="https://github.com/user-attachments/assets/e44be040-0950-4556-9c60-0228276e16ea" />
 
 <img width="1877" height="953" alt="image" src="https://github.com/user-attachments/assets/0b64c497-1e22-4dad-bca8-45ccfe41de17" />
 
 
 🛠️ Admin Dashboard
+
 <img width="1905" height="893" alt="image" src="https://github.com/user-attachments/assets/160be30c-320a-4635-99d1-81d37bb455c6" />
 
 <img width="1878" height="930" alt="image" src="https://github.com/user-attachments/assets/3c14f82e-759e-46c6-9363-e9e658385d48" />
