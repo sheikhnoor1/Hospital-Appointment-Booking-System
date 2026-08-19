@@ -1,8 +1,10 @@
 🏥 Hospital Appointment Booking System
+
 A PHP and MySQL based hospital appointment booking web application that allows patients to find doctors, check available appointment slots, and manage appointments. The system provides separate dashboards for patients, doctors, and administrators.
 The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS and JavaScript.
 
 📌 Features
+
 👤 Authentication & User Management
 ● Patient registration and login
 ● Session-based authentication
@@ -11,6 +13,7 @@ The application follows an MVC-style architecture using PHP, MySQL, HTML, CSS an
 ● Password change
 ● User activation/deactivation
 🧑‍⚕️ Doctor Management
+
 ● Add, edit and deactivate doctors
 ● Assign specializations
 ● Doctor biography and consultation fee
